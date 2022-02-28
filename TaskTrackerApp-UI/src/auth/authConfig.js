@@ -29,10 +29,10 @@ auth: {
 */
 export const msalConfig = {
     auth: {
-        clientId: `722392da-bc24-4083-b7c3-cadccf904d1c`,
-        authority: `https://login.microsoftonline.com/98c0cd0b-976c-495a-b757-ef8dc8943038`,
-        redirectUri: `https://green-ocean-0e29caa0f.1.azurestaticapps.net/auth/signIn`,
-        postLogoutRedirectUri: `https://green-ocean-0e29caa0f.1.azurestaticapps.net/`
+        clientId: `${process.env.CLIENTID}`,
+        authority: `${process.env.AUTHORITY}`,
+        redirectUri: `${process.env.SIGNIN}`,
+        postLogoutRedirectUri: `${process.env.HOMEPAGE}`
     },
     cache: {
         cacheLocation: "sessionStorage", // Configures cache location. "sessionStorage" is more secure, but "localStorage" gives you SSO between tabs.
