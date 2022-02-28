@@ -1,0 +1,30 @@
+[
+  {
+    "name": "REACT_APP_ABOUT1",
+    "value": "https://green-ocean-0e29caa0f.1.azurestaticapps.net/about"
+  },
+  {
+    "name": "REACT_APP_AUTHORITY1",
+    "value": "https://login.microsoftonline.com/98c0cd0b-976c-495a-b757-ef8dc8943038"
+  },
+  {
+    "name": "REACT_APP_CLIENTID1",
+    "value": "722392da-bc24-4083-b7c3-cadccf904d1c"
+  },
+  {
+    "name": "REACT_APP_DASHBOARD1",
+    "value": "https://green-ocean-0e29caa0f.1.azurestaticapps.net/DashBoard"
+  },
+  {
+    "name": "REACT_APP_HOMEPAGE1",
+    "value": "https://green-ocean-0e29caa0f.1.azurestaticapps.net/"
+  },
+  {
+    "name": "REACT_APP_SIGNIN1",
+    "value": "https://green-ocean-0e29caa0f.1.azurestaticapps.net/auth/signIn"
+  },
+  {
+    "name": "REACT_APP_SIGNOUT1",
+    "value": "https://green-ocean-0e29caa0f.1.azurestaticapps.net/auth/signOut"
+  }
+]
