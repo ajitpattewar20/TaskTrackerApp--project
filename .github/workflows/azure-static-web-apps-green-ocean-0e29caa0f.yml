@@ -28,7 +28,6 @@ jobs:
           ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
           app_location: "/TaskTrackerApp-UI" # App source code path
-          env : '[{"name": "ABOUT","value": "https://green-ocean-0e29caa0f.1.azurestaticapps.net/about"},{"name": "AUTHORITY","value": "https://login.microsoftonline.com/98c0cd0b-976c-495a-b757-ef8dc8943038"},{"name": "CLIENTID","value": "722392da-bc24-4083-b7c3-cadccf904d1c"},{"name": "DASHBOARD","value": "https://green-ocean-0e29caa0f.1.azurestaticapps.net/DashBoard"},{"name": "HOMEPAGE","value": "https://green-ocean-0e29caa0f.1.azurestaticapps.net/"},{"name": "SIGNIN","value": "https://green-ocean-0e29caa0f.1.azurestaticapps.net/auth/signIn"},{"name": "SIGNOUT","value": "https://green-ocean-0e29caa0f.1.azurestaticapps.net/auth/signOut"}]'
           api_location: "" # Api source code path - optional
           output_location: "build" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
