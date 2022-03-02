@@ -1,7 +1,7 @@
 import React from "react";
 import { makeStyles } from "@mui/styles";
 import { NavLink } from "react-router-dom";
-import { getenv } from "../environment/Myenv";
+//import { getenv } from "../environment/Myenv";
 
 const useStyles = makeStyles({
   Headercss: {
@@ -19,7 +19,7 @@ const useStyles = makeStyles({
 
 const Header = () => {
   const classes = useStyles();
-  let env = getenv();
+  //let env = getenv();
   //console.log(env.REACT_APP_CLIENTID);
   console.log(process.env.REACT_APP_HOMEPAGEB);
   console.log(process.env.REACT_APP_HOMEPAGEA);
