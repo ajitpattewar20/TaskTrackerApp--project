@@ -20,7 +20,10 @@ const useStyles = makeStyles({
 const Header = () => {
   const classes = useStyles();
   let env = getenv();
-  console.log(env.REACT_APP_CLIENTID);
+  //console.log(env.REACT_APP_CLIENTID);
+  console.log(provess.env.REACT_APP_HOMEPAGEB);
+  console.log(provess.env.REACT_APP_HOMEPAGEA);
+  console.log(provess.env.HOMEPAGEC);
   return (
     <>
       <header className={`${classes.Headercss}`}>
