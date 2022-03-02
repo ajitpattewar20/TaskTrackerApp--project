@@ -1,4 +1,4 @@
-import React, { useEffect as UseEffect } from "react";
+import React from "react";
 import "./styles/App.css";
 import "./styles/css.css";
 

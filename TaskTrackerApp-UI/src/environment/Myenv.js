@@ -1,7 +1,7 @@
-import React, { useState, useEffect as UseEffect } from "react";
+import { useEffect as UseEffect } from "react";
 import axios from "axios";
 
-const API_URL = "/api/task/";
+//const API_URL = "/api/task/";
 const API_URL_ENV = "/api/UIenv/";
 const MODE = "dev";
 
