@@ -13,7 +13,9 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-app.use("/Omg5Ed72LTgzDIcLPxg6/api/task", require("./routes/tasksrouts"));
+app.use("/api/task", require("./routes/tasksrouts"));
+
+app.use("/api/UIenv", require("./routes/UIenvrouts"));
 
 app.use(errorHandler);
 

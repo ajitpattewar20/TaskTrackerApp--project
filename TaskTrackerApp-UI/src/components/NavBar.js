@@ -9,6 +9,7 @@ const useStyles = makeStyles({
     padding: "0",
     zIndex: "99",
     position: "relative",
+    maxHeight: "10vh",
   },
   navbarBrand: {
     fontSize: "2.5rem",
@@ -16,13 +17,12 @@ const useStyles = makeStyles({
     verticalAlign: "middle",
   },
   logoimg: {
-    marginLeft:"20px",
+    marginLeft: "20px",
     height: "42px",
- 
   },
   verticalAlign: "middle",
   containerMargin: {
-    margin: "0 25px",
+    margin: "10px 25px",
   },
 });
 /**------------signIn and signOut button component---------start */

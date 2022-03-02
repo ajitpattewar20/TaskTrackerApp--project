@@ -12,14 +12,21 @@ const useStyles = makeStyles({
     backgroundColor: "#00ffb58a",
     justifyContent: "center",
     padding: "7px 0px",
-    zIndex: "99",
-    position: "relative",
+    position: "absolute",
+    width: "100%",
   },
   alertmsg: {
     alignSelf: "center",
     marginRight: "25px",
     fontSize: "16px",
     textDecoration: "underline",
+    marginBottom: "0",
+  },
+  alertmsg2: {
+    alignSelf: "center",
+    marginRight: "25px",
+    fontSize: "16px",
+    marginBottom: "0",
   },
   alertdash: {
     width: "auto",
@@ -42,6 +49,21 @@ const Viewdashboard = () => {
   );
 };
 
+const Logintoviewdashboard = () => {
+  const classes = useStyles();
+  return (
+    <div className={`d-flex ${classes.alert}`}>
+      <h3 className={`${classes.alertmsg2}`}>Sign In To view DashBoard</h3>
+      <NavLink
+        className={`btn  btn-style-border ${classes.alertdash}`}
+        to="/DashBoard"
+      >
+        Sign In
+      </NavLink>
+    </div>
+  );
+};
+
 function Home() {
   return (
     <div>
@@ -51,7 +73,7 @@ function Home() {
           <Viewdashboard />
         </AuthenticatedTemplate>
         <UnauthenticatedTemplate>
-          <h3>not signined</h3>
+          <Logintoviewdashboard />
         </UnauthenticatedTemplate>
       </div>
       <HeaderC />

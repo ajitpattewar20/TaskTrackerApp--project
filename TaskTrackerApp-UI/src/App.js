@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect as UseEffect } from "react";
 import "./styles/App.css";
 import "./styles/css.css";
 
@@ -12,7 +12,10 @@ import Error from "./pages/Error";
 import About from "./pages/About";
 import Dashboard from "./pages/Dashboard";
 
+import Myenv from "./environment/Myenv";
+
 const App = () => {
+  Myenv();
   return (
     <>
       <BrowserRouter>
