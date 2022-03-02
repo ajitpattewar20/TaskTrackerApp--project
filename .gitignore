@@ -11,8 +11,9 @@
 # production
 /build
 
-#yqwe
-/yqwe
+#youtube
+/youtube
+/my
 
 # misc
 .DS_Store

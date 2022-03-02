@@ -1,0 +1,22 @@
+{
+  "name": "tasktrackerapp--frt-project",
+  "version": "1.0.0",
+  "description": "Task Tracker App",
+  "scripts": {
+    "start": "node ./TaskTrackerApp--API/server.js",
+    "dev": "nodemon ./TaskTrackerApp--API/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajitpattewar20/TaskTrackerApp--project.git"
+  },
+  "author": "ajitpattewar20",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajitpattewar20/TaskTrackerApp--project/issues"
+  },
+  "homepage": "https://github.com/ajitpattewar20/TaskTrackerApp--project#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
